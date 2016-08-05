@@ -24,7 +24,7 @@ void readPhotoResistor() {
     Serial.println(value);
 }
 
-Timer timer(1000, readPhotoResistor);
+Timer timer(5000, readPhotoResistor);
 
 /**
  * Sets the state of the LED.
